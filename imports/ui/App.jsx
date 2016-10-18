@@ -36,11 +36,7 @@ class App extends Component {
           <h1>Todo List</h1>
 
           <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
-            <input
-              type="text"
-              ref="textInput"
-              placeholder="Type to add new tasks"
-            />
+            <input type="text" ref="textInput" placeholder="Type to add new tasks" />
           </form>
 
         </header>
